@@ -7,7 +7,7 @@ attr_accessor :brand, :color, :size, :material, :condition
   end
 
   def cobble
-    @condition = new
+    @condition = "new"
   end
 
 end
